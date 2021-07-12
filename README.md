@@ -15,7 +15,7 @@ pod 'DebugMenu'
 or 
 
 ```ruby
-pod 'DebugMenu', :git => 'https://github.com/magenta-technology/debugmenu.git'
+pod 'DebugMenu', :git => 'https://github.com/magenta-technology/DebugMenu.git'
 ```
 
 ## Author
