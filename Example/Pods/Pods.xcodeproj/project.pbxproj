@@ -1,0 +1,1659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DD819729BCDC980D093AC913C81690A /* NFXAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3D6A2CAEAE0ED6F2403F060E4E4F6C /* NFXAssets.swift */; };
+		0FCE3C0681D819E0265703F60330EE92 /* NFXHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB834DCB021486F7E65316C22BF52AF /* NFXHelper.swift */; };
+		10BE7818E593D0A3C6974743D494899D /* NFXSettingsController_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C7C15C9876791E7292FD8B86DE38F /* NFXSettingsController_iOS.swift */; };
+		1164A13B7E3C8214C2FFE8422F51F45C /* Fingertips-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFFF18A904AD105EE93832A37F26C6D /* Fingertips-dummy.m */; };
+		128743FEA6A7F996C56840FC32DE4973 /* MainDebugController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA1625A28758415C5F8CB2F7C2B9432B /* MainDebugController.xib */; };
+		158E33090BE61388F765176B47AC5647 /* Credential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D15F39CB0A4DF019C5BA8DC540B809 /* Credential.swift */; };
+		1766DB8ECBD23A7B68C2B0DC6D5136D9 /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE5DF82F1427279D1FB25B877E5D5A /* UIView+Utils.swift */; };
+		1BD04A70EF76BD6EF9276FC62D949DBA /* CustomizeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9926A0FDFB651CC2F297A4529A57872 /* CustomizeController.swift */; };
+		21814D7EE82F8BB989437E5100CB07AE /* NFXProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF923AE1D33A5101EBA0A2BE2CB757D /* NFXProtocol.swift */; };
+		27FCC0673DFC26891C637B89CE20E59F /* TemplatesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FBB9AB46684E84475F0BA084544776 /* TemplatesController.swift */; };
+		28F85CFA6A5210E4986327B36E65D9F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F3CDA8093258849A7E7518D80473BC /* Foundation.framework */; };
+		2964D5147B3E1AD7C6C24FEB37EC26AB /* DebugMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D90C907FF2EC1D648C42B7D055DE170C /* DebugMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B337E6FF6E98CC10BAB27278CD76D64 /* DebugMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207BC69C37BD59B98785F86115428D76 /* DebugMenuManager.swift */; };
+		2D707D16E2BBE97968CC6202D712C946 /* DebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69109065ABF731196BB8B22BF6CD184 /* DebugViewController.swift */; };
+		38861DA6CFF872C9D6D971D50DFA1D1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B07E60CD104CA24883D26E3C550F01 /* UIKit.framework */; };
+		3C347341327145A00EC6128758E43EAF /* CustomizeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3A0BEC7171D03D0816C543B17A3C041 /* CustomizeController.xib */; };
+		3CF5E488FF5419AC95069DBA7EBF2285 /* Closable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4B0BA2D58D0437DABEED4D17BC32E6 /* Closable.swift */; };
+		3D64FBAC42C85E367300102AD56DC2E0 /* Pods-DebugMenuExampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E8C308BC69E1731107BC6D86731BC0 /* Pods-DebugMenuExampleApp-dummy.m */; };
+		3E3F1D7C263E5289DBE669488B613D43 /* NFXDetailsController_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199BB937F2848DFCDD96828BA6E40706 /* NFXDetailsController_iOS.swift */; };
+		3F6DB588AA2B144D63AAD8CA5D11A7A9 /* ServersController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EAA9D788C88528E24471C02E483A752 /* ServersController.xib */; };
+		4044BE9CB23168BEA3EDAFE36B73F1FE /* NFXLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E077497F6BCE3DC6EDC43889FCF0648 /* NFXLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45ACDF2FFE42F9A2C7E490D265C2AD55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F3CDA8093258849A7E7518D80473BC /* Foundation.framework */; };
+		468E0BE51620D64032CF22562BCB8A12 /* netfox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D27C053E64FC60C45E45EF9AFF09527 /* netfox.framework */; };
+		48D79B7920824EE904F0A54ADA0EB85F /* DebugMenuBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D3EE9259B971D02BCAAA6779334066BA /* DebugMenuBundle.bundle */; };
+		4900DE3B6329D64E3BA24C5495806EC1 /* NFXConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407B432FCA4A09905C38864077A8EDF9 /* NFXConstants.swift */; };
+		4A0629970051A2317A448FC96D9FF5B0 /* HostUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0402D40D1A6676147E6BD3234F183A5B /* HostUrl.swift */; };
+		4F7E412F3FFB0A87B72617A23C033B51 /* NFXListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64374C9DBD3E407C93EF74A8C3CE4E2C /* NFXListController.swift */; };
+		58FA688024C66922AD30595BE5C060E4 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7AA339459E3AE93667FF6D26B390ED /* UIViewController+Utils.swift */; };
+		5ECEFCC2D08F8D2CE0E82A6EA44F73D7 /* NFXStatisticsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC31CB7EC36DE9FED3B9AD2C398D564 /* NFXStatisticsController.swift */; };
+		62923E6B71078CA5469A95C52CA7EE9C /* NFXURLDetailsControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCEADC3A33921646A15156871AF7AC5 /* NFXURLDetailsControllerViewController.swift */; };
+		6719C42B3B1C93685EE65EBAE36C9097 /* KeyChainUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E61EDBA9AD645CEF9B7BFEE9D0CAED0 /* KeyChainUtils.swift */; };
+		68BAD933D1B565E2852ECED1E57C06FA /* NFXHTTPModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB960727F5C748D38E5FE13BB15D7144 /* NFXHTTPModelManager.swift */; };
+		6A40E418752F2C672EFDB1ECCA07E9D8 /* MBFingerTipWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2447D11029A9C91EE99033C7CAEDA3ED /* MBFingerTipWindow.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6AF209FAEA844AE6EC71B2BD0D60DA84 /* DebugMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BEA952FAC260D44D42F619732C9CE7 /* DebugMenu-dummy.m */; };
+		7101EC195727954828A26354B2566B94 /* CustomizeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3A0BEC7171D03D0816C543B17A3C041 /* CustomizeController.xib */; };
+		73066E91A0EE99B9FADFBC954534A970 /* NFX.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA65A05E5DC450D5736A481C0E91D40B /* NFX.swift */; };
+		76561B2DB31C0B914AADD4C4B9354398 /* DebugUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D8A38EB516F2F352F5F77A92AC1FF /* DebugUtils.swift */; };
+		79C91E2ACE87E43EAA82DB81FAC3F707 /* Fingertips.h in Headers */ = {isa = PBXBuildFile; fileRef = D073F4341B57F7F97393D319E4DB993A /* Fingertips.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AFB8CA261570DA0FEFDF511AF411C7C /* Pods-DebugMenu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F1B0763334465F816C03E4CBCE86DD9 /* Pods-DebugMenu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C7B7FBCA7CA41A3DFB445258B9A0584 /* ServersController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EAA9D788C88528E24471C02E483A752 /* ServersController.xib */; };
+		7F5997936DE428F420D103A4D68E5499 /* Fingertips-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 888A68092A4E2BE875851E4CB8F6B410 /* Fingertips-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814A6155AD85BB2C960473386FB273AC /* netfox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 445A354A6DE6ECDF7B6239C313BCDB30 /* netfox-dummy.m */; };
+		848A1D01815D85C389920B07CE6BDC60 /* FakeLocationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF79601D9E298422F305A768D048A8BC /* FakeLocationController.xib */; };
+		84F77B6719946CFC3496869C5DEB5951 /* NFXImageBodyDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D7ADF495C11D6398AF14BE5F8DFDD /* NFXImageBodyDetailsController.swift */; };
+		857074CBA772FF76D6BA708F43C38A82 /* NFXSettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0A3DF4B6E41D67E06D2E6094832CEE /* NFXSettingsController.swift */; };
+		865FCFC634079900A6997A9B1B1FDA32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F3CDA8093258849A7E7518D80473BC /* Foundation.framework */; };
+		889667B66F38462AC409AECD1896F95D /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688BF5AAFCBF5928E75D30AAC60F5143 /* Array+Utils.swift */; };
+		88DAB14B20B3348972229A7AACC5F848 /* DebugGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F0CA3A5048087218E5AC7CA7D48CD2 /* DebugGestureRecognizer.swift */; };
+		89A93FBF081D02B3AF44448C5D464C19 /* NFXAuthenticationChallengeSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27C1A231C287A839E026F8F4288ACE /* NFXAuthenticationChallengeSender.swift */; };
+		9A6ADBF93C8FC03ED27665048FB75F2D /* NFXHelper_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C0D16BD15F02FAAC973356B917CD0B /* NFXHelper_iOS.swift */; };
+		9C266AFE78728198A31B3CD369F7CDA5 /* Pods-DebugMenu_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E56B7F2C0C35D5C0C18C92CA8755B8EA /* Pods-DebugMenu_Tests-dummy.m */; };
+		9CF992B4374FEBF190BBBC4312918812 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F3CDA8093258849A7E7518D80473BC /* Foundation.framework */; };
+		A539F76919E75E3D588BD5279F88B41B /* MBFingerTipWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 547320CA7E6340F2D16748774F90A5D8 /* MBFingerTipWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2445A07A8EC394F3DD10DB11D88106D /* netfox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B289CDBC26E1CB6C26AC84FB8653CE8 /* netfox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B479B2090FC9AFEBE19883BBD75D4E9F /* ServersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECECB856DE8A3EDF4BC3547081857E3 /* ServersController.swift */; };
+		BBFF77DC457A543D83CD7C8D29DB95A0 /* NFXHTTPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8722D961B940F5339711717805BADA /* NFXHTTPModel.swift */; };
+		C4C8C2DF48A1FF1D644DB70E9D58A034 /* NFXGenericBodyDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB513B7A762070B3913620956939A97 /* NFXGenericBodyDetailsController.swift */; };
+		C52241A3D698575E2A0B81C84EF645EA /* NFXStatisticsController_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D25FB83CE781D2A5B08D19616EA67C1 /* NFXStatisticsController_iOS.swift */; };
+		CAF278F589FC8750708ADC6B4B341F22 /* NFXRawBodyDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3970137CD83863FCFE04BA7DFDC2B63E /* NFXRawBodyDetailsController.swift */; };
+		CCFF99AE0BE0C4AF01942B2B50CF16D1 /* NFXLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 658B50C71B4B20CC4C400D89DC781A1B /* NFXLoader.m */; };
+		CDB46879B0BAC3644CDB99EDE6CE9ABD /* TemplatesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0FF94633B76FD8DBE8055A79F59870 /* TemplatesController.xib */; };
+		CECA233B7956AF3910A31626ED4D7E3C /* NFXListController_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2641B24309B86C7E5E6FDE02D6E9969 /* NFXListController_iOS.swift */; };
+		CF7B31C35ED58609F3763BC1034D6FEA /* FakeLocationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF79601D9E298422F305A768D048A8BC /* FakeLocationController.xib */; };
+		D64C9F13D9AF52529DC253C87E5FCF24 /* TemplatesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0FF94633B76FD8DBE8055A79F59870 /* TemplatesController.xib */; };
+		D88C1254A2722AE8B08E9D2BD9EC29FF /* Pods-DebugMenuExampleApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1380E6FBB60FC130EED9609C696132A /* Pods-DebugMenuExampleApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8A7CCCC81072C58C9A7E55404F64EB5 /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EB357614CE62C81A442D8CFB60F845 /* String+Utils.swift */; };
+		D953A4F205B6E1CFAFCF0F9931F27719 /* NFXInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53D229665AF0DD2B8FE9F7578CD441E /* NFXInfoController.swift */; };
+		DA06AA1A6CC2B9D8F7EC41AC663BE8EC /* FakeLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D6D43DE80CC23573E95E26979CE0A /* FakeLocationController.swift */; };
+		DF5CAE73D271572C9E6AB3EFB571EE55 /* NFXInfoController_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87C26857DC60B00D59B2E724E79D7E5 /* NFXInfoController_iOS.swift */; };
+		E36D70CEB5E7A6C4B82FDEC7F3096578 /* NFXListCell_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AE4E7F1E3F28BD9DEB595C4DFCC6E1 /* NFXListCell_iOS.swift */; };
+		E3D93EA2FDDF6362E469AD5625A86AB2 /* NFXWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9B6E7DFAF0FAC712E1B32381825619 /* NFXWindowController.swift */; };
+		E8F0214C1945103B0E908BE92658134D /* NFXGenericController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83D4EAD7DE16097292E78BDE49F398B /* NFXGenericController.swift */; };
+		EC8EC32453A70E08B79C7488D06872E1 /* MainDebugController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDD931589EC4EFB6DBEEF3E163FC8C /* MainDebugController.swift */; };
+		F110D6A72D4DD1D719ED48E88FDFB345 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F3CDA8093258849A7E7518D80473BC /* Foundation.framework */; };
+		F34D8B65E0DCDE6060C231E5060BB603 /* MainDebugController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA1625A28758415C5F8CB2F7C2B9432B /* MainDebugController.xib */; };
+		F9E15738B18BF78C305366C8ED27CE86 /* NFXDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E06FFA0EB320CED597B3FF2179A31 /* NFXDetailsController.swift */; };
+		FB17B82CFFED6C8912038EB5955366B3 /* Fingertips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC95333C3727E4A83F44C5F4A69E3FB /* Fingertips.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1176F8A597F044096E81A35B836ED700 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 325C9290759498F6959A926FC3E82838;
+			remoteInfo = Fingertips;
+		};
+		1EBEA04D7A5EF592D883C1161110A2BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9D3192D9FD13B1FB1D55007DF0467C9;
+			remoteInfo = "DebugMenu-DebugMenuBundle";
+		};
+		2CEDEDF1C7B54CFA020E91C07D23C382 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1610B0D13741B14EABEFC3FD22EB03BC;
+			remoteInfo = DebugMenu;
+		};
+		3C6AA3E2B0282D88080E1306A76ED44D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33426EFE1931E100B59ABF41FD14377D;
+			remoteInfo = netfox;
+		};
+		3D2EF90A7FADC4D41AB26B43FE0182F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 325C9290759498F6959A926FC3E82838;
+			remoteInfo = Fingertips;
+		};
+		8155A7CB6B812DB4993FB1FA260989F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33426EFE1931E100B59ABF41FD14377D;
+			remoteInfo = netfox;
+		};
+		8DFBD14F1D95A7F17D82A3A9ED031770 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33426EFE1931E100B59ABF41FD14377D;
+			remoteInfo = netfox;
+		};
+		C59A9EBC5B8CFC8D787B58622B63D6C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 325C9290759498F6959A926FC3E82838;
+			remoteInfo = Fingertips;
+		};
+		E30F682510C0E3DB31F558AA38E0AE60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1610B0D13741B14EABEFC3FD22EB03BC;
+			remoteInfo = DebugMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01FDD931589EC4EFB6DBEEF3E163FC8C /* MainDebugController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MainDebugController.swift; sourceTree = "<group>"; };
+		0402D40D1A6676147E6BD3234F183A5B /* HostUrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HostUrl.swift; sourceTree = "<group>"; };
+		0A0FF94633B76FD8DBE8055A79F59870 /* TemplatesController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TemplatesController.xib; sourceTree = "<group>"; };
+		0A3CA23BFB9009691A741D4667E161AB /* Fingertips.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Fingertips.modulemap; sourceTree = "<group>"; };
+		0AFFF18A904AD105EE93832A37F26C6D /* Fingertips-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Fingertips-dummy.m"; sourceTree = "<group>"; };
+		0ECECB856DE8A3EDF4BC3547081857E3 /* ServersController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ServersController.swift; sourceTree = "<group>"; };
+		0FEF58D8FAE52E5ACCC1570CF066A7DA /* DebugMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DebugMenu-Info.plist"; sourceTree = "<group>"; };
+		0FF6E7AE393020285CE8885A33401E6E /* Pods-DebugMenuExampleApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DebugMenuExampleApp-Info.plist"; sourceTree = "<group>"; };
+		11EB357614CE62C81A442D8CFB60F845 /* String+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
+		199BB937F2848DFCDD96828BA6E40706 /* NFXDetailsController_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXDetailsController_iOS.swift; path = netfox/iOS/NFXDetailsController_iOS.swift; sourceTree = "<group>"; };
+		1B73A50B0DF64D2E4F40BA7C2105E5B8 /* DebugMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DebugMenu.debug.xcconfig; sourceTree = "<group>"; };
+		1F1B0763334465F816C03E4CBCE86DD9 /* Pods-DebugMenu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DebugMenu_Tests-umbrella.h"; sourceTree = "<group>"; };
+		207BC69C37BD59B98785F86115428D76 /* DebugMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DebugMenuManager.swift; path = DebugMenu/Classes/DebugMenuManager.swift; sourceTree = "<group>"; };
+		2447D11029A9C91EE99033C7CAEDA3ED /* MBFingerTipWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBFingerTipWindow.m; sourceTree = "<group>"; };
+		25F8C13D11A8C1F45E708C5FEB21AEE4 /* Fingertips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fingertips.debug.xcconfig; sourceTree = "<group>"; };
+		2B0A3DF4B6E41D67E06D2E6094832CEE /* NFXSettingsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXSettingsController.swift; path = netfox/Core/NFXSettingsController.swift; sourceTree = "<group>"; };
+		2C7B3149EE6FE0BDA62AFDB555105CF8 /* netfox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = netfox.modulemap; sourceTree = "<group>"; };
+		31AE4E7F1E3F28BD9DEB595C4DFCC6E1 /* NFXListCell_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXListCell_iOS.swift; path = netfox/iOS/NFXListCell_iOS.swift; sourceTree = "<group>"; };
+		31E1BEC46E6871A70E5C058BAAE8AA86 /* Fingertips-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Fingertips-Info.plist"; sourceTree = "<group>"; };
+		35969394FE3B03E15AE406D96F2C9263 /* Pods-DebugMenuExampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DebugMenuExampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		3657B1211B637229AC91E197ADAD977D /* Pods_DebugMenuExampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DebugMenuExampleApp.framework; path = "Pods-DebugMenuExampleApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		387958057DE593CBAD9EC8AE044F6800 /* netfox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "netfox-Info.plist"; sourceTree = "<group>"; };
+		3970137CD83863FCFE04BA7DFDC2B63E /* NFXRawBodyDetailsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXRawBodyDetailsController.swift; path = netfox/Core/NFXRawBodyDetailsController.swift; sourceTree = "<group>"; };
+		3B0462617C7CAA1530F341691F961290 /* Fingertips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fingertips.release.xcconfig; sourceTree = "<group>"; };
+		3D4C3DC1EA0096D9471991B7B630EE9D /* Pods-DebugMenuExampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DebugMenuExampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D7498EDDA9173B591C328C49E12E629 /* DebugMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DebugMenu-prefix.pch"; sourceTree = "<group>"; };
+		3E077497F6BCE3DC6EDC43889FCF0648 /* NFXLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NFXLoader.h; path = netfox/Core/NFXLoader.h; sourceTree = "<group>"; };
+		3E7AA339459E3AE93667FF6D26B390ED /* UIViewController+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		3FC31CB7EC36DE9FED3B9AD2C398D564 /* NFXStatisticsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXStatisticsController.swift; path = netfox/Core/NFXStatisticsController.swift; sourceTree = "<group>"; };
+		407B432FCA4A09905C38864077A8EDF9 /* NFXConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXConstants.swift; path = netfox/Core/NFXConstants.swift; sourceTree = "<group>"; };
+		4272276CFD796349179F87CE3343B3BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		445A354A6DE6ECDF7B6239C313BCDB30 /* netfox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "netfox-dummy.m"; sourceTree = "<group>"; };
+		49C0D16BD15F02FAAC973356B917CD0B /* NFXHelper_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXHelper_iOS.swift; path = netfox/iOS/NFXHelper_iOS.swift; sourceTree = "<group>"; };
+		4D2E06FFA0EB320CED597B3FF2179A31 /* NFXDetailsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXDetailsController.swift; path = netfox/Core/NFXDetailsController.swift; sourceTree = "<group>"; };
+		53F0CA3A5048087218E5AC7CA7D48CD2 /* DebugGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DebugGestureRecognizer.swift; sourceTree = "<group>"; };
+		547320CA7E6340F2D16748774F90A5D8 /* MBFingerTipWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBFingerTipWindow.h; sourceTree = "<group>"; };
+		55D45AF2E39237B9C7380CCF7CBF80F0 /* DebugMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DebugMenu.modulemap; sourceTree = "<group>"; };
+		58DF6BEE1C8215B1FAF142D08B918FA1 /* Pods-DebugMenu_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DebugMenu_Tests-Info.plist"; sourceTree = "<group>"; };
+		5B6A8987D4C326FE19E67E33C8BA0EDC /* netfox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = netfox.debug.xcconfig; sourceTree = "<group>"; };
+		60F3CDA8093258849A7E7518D80473BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		64374C9DBD3E407C93EF74A8C3CE4E2C /* NFXListController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXListController.swift; path = netfox/Core/NFXListController.swift; sourceTree = "<group>"; };
+		658B50C71B4B20CC4C400D89DC781A1B /* NFXLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NFXLoader.m; path = netfox/Core/NFXLoader.m; sourceTree = "<group>"; };
+		688BF5AAFCBF5928E75D30AAC60F5143 /* Array+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Utils.swift"; sourceTree = "<group>"; };
+		6D25FB83CE781D2A5B08D19616EA67C1 /* NFXStatisticsController_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXStatisticsController_iOS.swift; path = netfox/iOS/NFXStatisticsController_iOS.swift; sourceTree = "<group>"; };
+		6DF923AE1D33A5101EBA0A2BE2CB757D /* NFXProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXProtocol.swift; path = netfox/Core/NFXProtocol.swift; sourceTree = "<group>"; };
+		6E61EDBA9AD645CEF9B7BFEE9D0CAED0 /* KeyChainUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeyChainUtils.swift; sourceTree = "<group>"; };
+		716D8A38EB516F2F352F5F77A92AC1FF /* DebugUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DebugUtils.swift; sourceTree = "<group>"; };
+		71CDAA03EDBE948954BA0BD4C9ADCD0A /* Pods-DebugMenuExampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DebugMenuExampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		7742AAD8377967ABC149C295834EB7D6 /* Pods-DebugMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DebugMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		77F7D34ABC3687ABCE8759E6BF078273 /* Pods-DebugMenu_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DebugMenu_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7B289CDBC26E1CB6C26AC84FB8653CE8 /* netfox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "netfox-umbrella.h"; sourceTree = "<group>"; };
+		80783D182F64573BAF8DFB4BBC402E39 /* Pods-DebugMenuExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DebugMenuExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		82BEA952FAC260D44D42F619732C9CE7 /* DebugMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DebugMenu-dummy.m"; sourceTree = "<group>"; };
+		83FBB9AB46684E84475F0BA084544776 /* TemplatesController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemplatesController.swift; sourceTree = "<group>"; };
+		85D15F39CB0A4DF019C5BA8DC540B809 /* Credential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Credential.swift; sourceTree = "<group>"; };
+		888A68092A4E2BE875851E4CB8F6B410 /* Fingertips-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fingertips-umbrella.h"; sourceTree = "<group>"; };
+		88D57945A340A9D10A22F23F6271181D /* Fingertips-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fingertips-prefix.pch"; sourceTree = "<group>"; };
+		8A4B0BA2D58D0437DABEED4D17BC32E6 /* Closable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Closable.swift; sourceTree = "<group>"; };
+		8EAA9D788C88528E24471C02E483A752 /* ServersController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ServersController.xib; sourceTree = "<group>"; };
+		913D6A3BA4BF4BD1F1A2C26BB22850D3 /* Pods-DebugMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DebugMenu_Tests.modulemap"; sourceTree = "<group>"; };
+		91E8C308BC69E1731107BC6D86731BC0 /* Pods-DebugMenuExampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DebugMenuExampleApp-dummy.m"; sourceTree = "<group>"; };
+		9A89D9DFB0624312997BD3E8698F864D /* Pods-DebugMenu_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DebugMenu_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B8722D961B940F5339711717805BADA /* NFXHTTPModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXHTTPModel.swift; path = netfox/Core/NFXHTTPModel.swift; sourceTree = "<group>"; };
+		9CC95333C3727E4A83F44C5F4A69E3FB /* Fingertips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fingertips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D27C053E64FC60C45E45EF9AFF09527 /* netfox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = netfox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EB513B7A762070B3913620956939A97 /* NFXGenericBodyDetailsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXGenericBodyDetailsController.swift; path = netfox/Core/NFXGenericBodyDetailsController.swift; sourceTree = "<group>"; };
+		A17CD19FF42E540A17FD30A175668D23 /* DebugMenu.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DebugMenu.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3A0BEC7171D03D0816C543B17A3C041 /* CustomizeController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CustomizeController.xib; sourceTree = "<group>"; };
+		A53D229665AF0DD2B8FE9F7578CD441E /* NFXInfoController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXInfoController.swift; path = netfox/Core/NFXInfoController.swift; sourceTree = "<group>"; };
+		A86B3D5A40564630F178F408E0F07362 /* Pods-DebugMenu_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DebugMenu_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A9926A0FDFB651CC2F297A4529A57872 /* CustomizeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomizeController.swift; sourceTree = "<group>"; };
+		AB3F6470F0516E4F69B19799DEF97ACB /* ResourceBundle-DebugMenuBundle-DebugMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DebugMenuBundle-DebugMenu-Info.plist"; sourceTree = "<group>"; };
+		AF27C1A231C287A839E026F8F4288ACE /* NFXAuthenticationChallengeSender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXAuthenticationChallengeSender.swift; path = netfox/Core/NFXAuthenticationChallengeSender.swift; sourceTree = "<group>"; };
+		B0AFA4196FCC3BC78710594F882228D3 /* Pods_DebugMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DebugMenu_Tests.framework; path = "Pods-DebugMenu_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB834DCB021486F7E65316C22BF52AF /* NFXHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXHelper.swift; path = netfox/Core/NFXHelper.swift; sourceTree = "<group>"; };
+		BB7D6D43DE80CC23573E95E26979CE0A /* FakeLocationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FakeLocationController.swift; sourceTree = "<group>"; };
+		BC043DA76915F0E3B7CFA8AE6D7E0B7B /* Fingertips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Fingertips.framework; path = Fingertips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1952EA0085A4CE36B4AE041BE60B82 /* netfox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = netfox.framework; path = netfox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3D6A2CAEAE0ED6F2403F060E4E4F6C /* NFXAssets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXAssets.swift; path = netfox/Core/NFXAssets.swift; sourceTree = "<group>"; };
+		C3B07E60CD104CA24883D26E3C550F01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C40C7C15C9876791E7292FD8B86DE38F /* NFXSettingsController_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXSettingsController_iOS.swift; path = netfox/iOS/NFXSettingsController_iOS.swift; sourceTree = "<group>"; };
+		C50D7ADF495C11D6398AF14BE5F8DFDD /* NFXImageBodyDetailsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXImageBodyDetailsController.swift; path = netfox/Core/NFXImageBodyDetailsController.swift; sourceTree = "<group>"; };
+		CB1821A31E8BE840A7AB033C46C2DE40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CC938C3370E07336FBB01C2C4BE3971A /* netfox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = netfox.release.xcconfig; sourceTree = "<group>"; };
+		CE9B6E7DFAF0FAC712E1B32381825619 /* NFXWindowController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXWindowController.swift; path = netfox/Core/NFXWindowController.swift; sourceTree = "<group>"; };
+		CEF29F038C481EFC235354EA3499ACEF /* Pods-DebugMenuExampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DebugMenuExampleApp-frameworks.sh"; sourceTree = "<group>"; };
+		D073F4341B57F7F97393D319E4DB993A /* Fingertips.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Fingertips.h; sourceTree = "<group>"; };
+		D1380E6FBB60FC130EED9609C696132A /* Pods-DebugMenuExampleApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DebugMenuExampleApp-umbrella.h"; sourceTree = "<group>"; };
+		D2641B24309B86C7E5E6FDE02D6E9969 /* NFXListController_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXListController_iOS.swift; path = netfox/iOS/NFXListController_iOS.swift; sourceTree = "<group>"; };
+		D3BE5DF82F1427279D1FB25B877E5D5A /* UIView+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
+		D3EE9259B971D02BCAAA6779334066BA /* DebugMenuBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DebugMenuBundle.bundle; path = "DebugMenu-DebugMenuBundle.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90C907FF2EC1D648C42B7D055DE170C /* DebugMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DebugMenu-umbrella.h"; sourceTree = "<group>"; };
+		DCCEADC3A33921646A15156871AF7AC5 /* NFXURLDetailsControllerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXURLDetailsControllerViewController.swift; path = netfox/iOS/NFXURLDetailsControllerViewController.swift; sourceTree = "<group>"; };
+		DE10A9DE9E0CFE0F5223995EE2CC9335 /* DebugMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DebugMenu.release.xcconfig; sourceTree = "<group>"; };
+		E4C6824EA89A4E45F450C4B404200689 /* DebugMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DebugMenu.framework; path = DebugMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E56B7F2C0C35D5C0C18C92CA8755B8EA /* Pods-DebugMenu_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DebugMenu_Tests-dummy.m"; sourceTree = "<group>"; };
+		E83D4EAD7DE16097292E78BDE49F398B /* NFXGenericController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXGenericController.swift; path = netfox/Core/NFXGenericController.swift; sourceTree = "<group>"; };
+		EA1625A28758415C5F8CB2F7C2B9432B /* MainDebugController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MainDebugController.xib; sourceTree = "<group>"; };
+		EA65A05E5DC450D5736A481C0E91D40B /* NFX.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFX.swift; path = netfox/Core/NFX.swift; sourceTree = "<group>"; };
+		EB960727F5C748D38E5FE13BB15D7144 /* NFXHTTPModelManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXHTTPModelManager.swift; path = netfox/Core/NFXHTTPModelManager.swift; sourceTree = "<group>"; };
+		EC762F072CBBB8A5F6E2D8688A4F3E55 /* netfox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "netfox-prefix.pch"; sourceTree = "<group>"; };
+		EF79601D9E298422F305A768D048A8BC /* FakeLocationController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = FakeLocationController.xib; sourceTree = "<group>"; };
+		F0AEF9F9D288B4409D282DEA355FB8BF /* Pods-DebugMenuExampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DebugMenuExampleApp.modulemap"; sourceTree = "<group>"; };
+		F69109065ABF731196BB8B22BF6CD184 /* DebugViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DebugViewController.swift; sourceTree = "<group>"; };
+		F87C26857DC60B00D59B2E724E79D7E5 /* NFXInfoController_iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NFXInfoController_iOS.swift; path = netfox/iOS/NFXInfoController_iOS.swift; sourceTree = "<group>"; };
+		F9D9DD71F8B693DD9545BB89CBFB6A74 /* Pods-DebugMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DebugMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BD71383D304B26222C8F73BD16EEDCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F110D6A72D4DD1D719ED48E88FDFB345 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC0FE6FCAB8F1C58BA31A77B621FE6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F555BFFBF92309B49275A70D8588C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB17B82CFFED6C8912038EB5955366B3 /* Fingertips.framework in Frameworks */,
+				45ACDF2FFE42F9A2C7E490D265C2AD55 /* Foundation.framework in Frameworks */,
+				468E0BE51620D64032CF22562BCB8A12 /* netfox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A1FD62E0E0DD7FC84020A2758484061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865FCFC634079900A6997A9B1B1FDA32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB06D494E7380861CE0AF518D2A6326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F85CFA6A5210E4986327B36E65D9F2 /* Foundation.framework in Frameworks */,
+				38861DA6CFF872C9D6D971D50DFA1D1B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5366A7B57A18E6417D8DBF8BE3F362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF992B4374FEBF190BBBC4312918812 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02DA28FBDA5D38A356475B61DB798AE0 /* ServersController */ = {
+			isa = PBXGroup;
+			children = (
+				0ECECB856DE8A3EDF4BC3547081857E3 /* ServersController.swift */,
+			);
+			name = ServersController;
+			path = ServersController;
+			sourceTree = "<group>";
+		};
+		036239CF2D908578B0CEBA3BD87536C2 /* MainDebugController */ = {
+			isa = PBXGroup;
+			children = (
+				EA1625A28758415C5F8CB2F7C2B9432B /* MainDebugController.xib */,
+			);
+			name = MainDebugController;
+			path = DebugMenu/Classes/DebugControllers/MainDebugController;
+			sourceTree = "<group>";
+		};
+		0DF39C15DABE77A1D8BE83F814368633 /* Recognizers */ = {
+			isa = PBXGroup;
+			children = (
+				53F0CA3A5048087218E5AC7CA7D48CD2 /* DebugGestureRecognizer.swift */,
+			);
+			name = Recognizers;
+			path = DebugMenu/Classes/Recognizers;
+			sourceTree = "<group>";
+		};
+		1B171164F0D9490F6305410DB59D8B7A /* Pods-DebugMenuExampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				F0AEF9F9D288B4409D282DEA355FB8BF /* Pods-DebugMenuExampleApp.modulemap */,
+				3D4C3DC1EA0096D9471991B7B630EE9D /* Pods-DebugMenuExampleApp-acknowledgements.markdown */,
+				35969394FE3B03E15AE406D96F2C9263 /* Pods-DebugMenuExampleApp-acknowledgements.plist */,
+				91E8C308BC69E1731107BC6D86731BC0 /* Pods-DebugMenuExampleApp-dummy.m */,
+				CEF29F038C481EFC235354EA3499ACEF /* Pods-DebugMenuExampleApp-frameworks.sh */,
+				0FF6E7AE393020285CE8885A33401E6E /* Pods-DebugMenuExampleApp-Info.plist */,
+				D1380E6FBB60FC130EED9609C696132A /* Pods-DebugMenuExampleApp-umbrella.h */,
+				80783D182F64573BAF8DFB4BBC402E39 /* Pods-DebugMenuExampleApp.debug.xcconfig */,
+				71CDAA03EDBE948954BA0BD4C9ADCD0A /* Pods-DebugMenuExampleApp.release.xcconfig */,
+			);
+			name = "Pods-DebugMenuExampleApp";
+			path = "Target Support Files/Pods-DebugMenuExampleApp";
+			sourceTree = "<group>";
+		};
+		3A3A9BF742F7228FBEB92AD90DA0676F /* ServersController */ = {
+			isa = PBXGroup;
+			children = (
+				8EAA9D788C88528E24471C02E483A752 /* ServersController.xib */,
+			);
+			name = ServersController;
+			path = DebugMenu/Classes/DebugControllers/ServersController;
+			sourceTree = "<group>";
+		};
+		3ABC02C89ECBC7A8061EE41DADACBB83 /* TemplatesController */ = {
+			isa = PBXGroup;
+			children = (
+				83FBB9AB46684E84475F0BA084544776 /* TemplatesController.swift */,
+			);
+			name = TemplatesController;
+			path = TemplatesController;
+			sourceTree = "<group>";
+		};
+		47952FB251EB363F00B18E52BD87BE55 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A17CD19FF42E540A17FD30A175668D23 /* DebugMenu.podspec */,
+				4272276CFD796349179F87CE3343B3BF /* LICENSE */,
+				CB1821A31E8BE840A7AB033C46C2DE40 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4DA1F6E7E5C5197B2181E3E69F337A30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB7878271901EA49284ABF94F3A19EDE /* Fingertips */,
+				D08C96A4567FE7FF35EF8219472EB011 /* netfox */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E6D8DF61ABEBDBC31E05A0818AAAEC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CC95333C3727E4A83F44C5F4A69E3FB /* Fingertips.framework */,
+				9D27C053E64FC60C45E45EF9AFF09527 /* netfox.framework */,
+				E9F2B52631790F1BDEF56FFC6114540D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53232DB78CAEF775DCE58F0666B34551 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C7B3149EE6FE0BDA62AFDB555105CF8 /* netfox.modulemap */,
+				445A354A6DE6ECDF7B6239C313BCDB30 /* netfox-dummy.m */,
+				387958057DE593CBAD9EC8AE044F6800 /* netfox-Info.plist */,
+				EC762F072CBBB8A5F6E2D8688A4F3E55 /* netfox-prefix.pch */,
+				7B289CDBC26E1CB6C26AC84FB8653CE8 /* netfox-umbrella.h */,
+				5B6A8987D4C326FE19E67E33C8BA0EDC /* netfox.debug.xcconfig */,
+				CC938C3370E07336FBB01C2C4BE3971A /* netfox.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/netfox";
+			sourceTree = "<group>";
+		};
+		54A7BBC2E94AF1E4C5C51B6E993F09C8 /* TemplatesController */ = {
+			isa = PBXGroup;
+			children = (
+				0A0FF94633B76FD8DBE8055A79F59870 /* TemplatesController.xib */,
+			);
+			name = TemplatesController;
+			path = DebugMenu/Classes/DebugControllers/TemplatesController;
+			sourceTree = "<group>";
+		};
+		62DAB7580D5EDD30A724551E00D0F82B /* DebugMenu */ = {
+			isa = PBXGroup;
+			children = (
+				207BC69C37BD59B98785F86115428D76 /* DebugMenuManager.swift */,
+				B2A129D974916461FC3B9F1E43DA7794 /* Commons */,
+				8445585AC5341A32494CEF04627A02B7 /* CustomController */,
+				8ADC79D2F5D49DDB7418AACDC111F9B5 /* DebugControllers */,
+				64649452251AEC740B8DF07045390569 /* FakeLocationController */,
+				036239CF2D908578B0CEBA3BD87536C2 /* MainDebugController */,
+				D1EF1FE66F970F6646CD8A90863E43F5 /* Models */,
+				47952FB251EB363F00B18E52BD87BE55 /* Pod */,
+				0DF39C15DABE77A1D8BE83F814368633 /* Recognizers */,
+				3A3A9BF742F7228FBEB92AD90DA0676F /* ServersController */,
+				C52F2737F0660B9D2AF802046B25A5EE /* Support Files */,
+				54A7BBC2E94AF1E4C5C51B6E993F09C8 /* TemplatesController */,
+				7AE1FA234A1F36F5D6547179A495A1A3 /* Utils */,
+			);
+			name = DebugMenu;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		64649452251AEC740B8DF07045390569 /* FakeLocationController */ = {
+			isa = PBXGroup;
+			children = (
+				EF79601D9E298422F305A768D048A8BC /* FakeLocationController.xib */,
+			);
+			name = FakeLocationController;
+			path = DebugMenu/Classes/DebugControllers/FakeLocationController;
+			sourceTree = "<group>";
+		};
+		7AE1FA234A1F36F5D6547179A495A1A3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				688BF5AAFCBF5928E75D30AAC60F5143 /* Array+Utils.swift */,
+				716D8A38EB516F2F352F5F77A92AC1FF /* DebugUtils.swift */,
+				6E61EDBA9AD645CEF9B7BFEE9D0CAED0 /* KeyChainUtils.swift */,
+				11EB357614CE62C81A442D8CFB60F845 /* String+Utils.swift */,
+				D3BE5DF82F1427279D1FB25B877E5D5A /* UIView+Utils.swift */,
+				3E7AA339459E3AE93667FF6D26B390ED /* UIViewController+Utils.swift */,
+			);
+			name = Utils;
+			path = DebugMenu/Classes/Utils;
+			sourceTree = "<group>";
+		};
+		8445585AC5341A32494CEF04627A02B7 /* CustomController */ = {
+			isa = PBXGroup;
+			children = (
+				A3A0BEC7171D03D0816C543B17A3C041 /* CustomizeController.xib */,
+			);
+			name = CustomController;
+			path = DebugMenu/Classes/DebugControllers/CustomController;
+			sourceTree = "<group>";
+		};
+		8ADC79D2F5D49DDB7418AACDC111F9B5 /* DebugControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7EEC0F93948D5C92212D5440FE9979A /* CustomController */,
+				9A7F76249681075DFD0A25A81AB9B690 /* FakeLocationController */,
+				A9594C5DE32BE8402E568EFA4CAE01E1 /* MainDebugController */,
+				02DA28FBDA5D38A356475B61DB798AE0 /* ServersController */,
+				3ABC02C89ECBC7A8061EE41DADACBB83 /* TemplatesController */,
+			);
+			name = DebugControllers;
+			path = DebugMenu/Classes/DebugControllers;
+			sourceTree = "<group>";
+		};
+		9A7F76249681075DFD0A25A81AB9B690 /* FakeLocationController */ = {
+			isa = PBXGroup;
+			children = (
+				BB7D6D43DE80CC23573E95E26979CE0A /* FakeLocationController.swift */,
+			);
+			name = FakeLocationController;
+			path = FakeLocationController;
+			sourceTree = "<group>";
+		};
+		A9594C5DE32BE8402E568EFA4CAE01E1 /* MainDebugController */ = {
+			isa = PBXGroup;
+			children = (
+				01FDD931589EC4EFB6DBEEF3E163FC8C /* MainDebugController.swift */,
+			);
+			name = MainDebugController;
+			path = MainDebugController;
+			sourceTree = "<group>";
+		};
+		AF7B891FAC11BA56F1F4A84794C9027E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A3CA23BFB9009691A741D4667E161AB /* Fingertips.modulemap */,
+				0AFFF18A904AD105EE93832A37F26C6D /* Fingertips-dummy.m */,
+				31E1BEC46E6871A70E5C058BAAE8AA86 /* Fingertips-Info.plist */,
+				88D57945A340A9D10A22F23F6271181D /* Fingertips-prefix.pch */,
+				888A68092A4E2BE875851E4CB8F6B410 /* Fingertips-umbrella.h */,
+				25F8C13D11A8C1F45E708C5FEB21AEE4 /* Fingertips.debug.xcconfig */,
+				3B0462617C7CAA1530F341691F961290 /* Fingertips.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Fingertips";
+			sourceTree = "<group>";
+		};
+		B2A129D974916461FC3B9F1E43DA7794 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				8A4B0BA2D58D0437DABEED4D17BC32E6 /* Closable.swift */,
+				F69109065ABF731196BB8B22BF6CD184 /* DebugViewController.swift */,
+			);
+			name = Commons;
+			path = DebugMenu/Classes/Commons;
+			sourceTree = "<group>";
+		};
+		BEA3E038CD0F88521BAD6D12F642ACF4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7737AD749B9C07B7F015867917F8EDC /* Pods-DebugMenu_Tests */,
+				1B171164F0D9490F6305410DB59D8B7A /* Pods-DebugMenuExampleApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C44AE037CF3BFAF3294F746409B02CC3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62DAB7580D5EDD30A724551E00D0F82B /* DebugMenu */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C52F2737F0660B9D2AF802046B25A5EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55D45AF2E39237B9C7380CCF7CBF80F0 /* DebugMenu.modulemap */,
+				82BEA952FAC260D44D42F619732C9CE7 /* DebugMenu-dummy.m */,
+				0FEF58D8FAE52E5ACCC1570CF066A7DA /* DebugMenu-Info.plist */,
+				3D7498EDDA9173B591C328C49E12E629 /* DebugMenu-prefix.pch */,
+				D90C907FF2EC1D648C42B7D055DE170C /* DebugMenu-umbrella.h */,
+				1B73A50B0DF64D2E4F40BA7C2105E5B8 /* DebugMenu.debug.xcconfig */,
+				DE10A9DE9E0CFE0F5223995EE2CC9335 /* DebugMenu.release.xcconfig */,
+				AB3F6470F0516E4F69B19799DEF97ACB /* ResourceBundle-DebugMenuBundle-DebugMenu-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DebugMenu";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C44AE037CF3BFAF3294F746409B02CC3 /* Development Pods */,
+				4E6D8DF61ABEBDBC31E05A0818AAAEC3 /* Frameworks */,
+				4DA1F6E7E5C5197B2181E3E69F337A30 /* Pods */,
+				DCD91E767006F35D2365A6FADC66E1DB /* Products */,
+				BEA3E038CD0F88521BAD6D12F642ACF4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D08C96A4567FE7FF35EF8219472EB011 /* netfox */ = {
+			isa = PBXGroup;
+			children = (
+				EA65A05E5DC450D5736A481C0E91D40B /* NFX.swift */,
+				BF3D6A2CAEAE0ED6F2403F060E4E4F6C /* NFXAssets.swift */,
+				AF27C1A231C287A839E026F8F4288ACE /* NFXAuthenticationChallengeSender.swift */,
+				407B432FCA4A09905C38864077A8EDF9 /* NFXConstants.swift */,
+				4D2E06FFA0EB320CED597B3FF2179A31 /* NFXDetailsController.swift */,
+				199BB937F2848DFCDD96828BA6E40706 /* NFXDetailsController_iOS.swift */,
+				9EB513B7A762070B3913620956939A97 /* NFXGenericBodyDetailsController.swift */,
+				E83D4EAD7DE16097292E78BDE49F398B /* NFXGenericController.swift */,
+				BAB834DCB021486F7E65316C22BF52AF /* NFXHelper.swift */,
+				49C0D16BD15F02FAAC973356B917CD0B /* NFXHelper_iOS.swift */,
+				9B8722D961B940F5339711717805BADA /* NFXHTTPModel.swift */,
+				EB960727F5C748D38E5FE13BB15D7144 /* NFXHTTPModelManager.swift */,
+				C50D7ADF495C11D6398AF14BE5F8DFDD /* NFXImageBodyDetailsController.swift */,
+				A53D229665AF0DD2B8FE9F7578CD441E /* NFXInfoController.swift */,
+				F87C26857DC60B00D59B2E724E79D7E5 /* NFXInfoController_iOS.swift */,
+				31AE4E7F1E3F28BD9DEB595C4DFCC6E1 /* NFXListCell_iOS.swift */,
+				64374C9DBD3E407C93EF74A8C3CE4E2C /* NFXListController.swift */,
+				D2641B24309B86C7E5E6FDE02D6E9969 /* NFXListController_iOS.swift */,
+				3E077497F6BCE3DC6EDC43889FCF0648 /* NFXLoader.h */,
+				658B50C71B4B20CC4C400D89DC781A1B /* NFXLoader.m */,
+				6DF923AE1D33A5101EBA0A2BE2CB757D /* NFXProtocol.swift */,
+				3970137CD83863FCFE04BA7DFDC2B63E /* NFXRawBodyDetailsController.swift */,
+				2B0A3DF4B6E41D67E06D2E6094832CEE /* NFXSettingsController.swift */,
+				C40C7C15C9876791E7292FD8B86DE38F /* NFXSettingsController_iOS.swift */,
+				3FC31CB7EC36DE9FED3B9AD2C398D564 /* NFXStatisticsController.swift */,
+				6D25FB83CE781D2A5B08D19616EA67C1 /* NFXStatisticsController_iOS.swift */,
+				DCCEADC3A33921646A15156871AF7AC5 /* NFXURLDetailsControllerViewController.swift */,
+				CE9B6E7DFAF0FAC712E1B32381825619 /* NFXWindowController.swift */,
+				53232DB78CAEF775DCE58F0666B34551 /* Support Files */,
+			);
+			name = netfox;
+			path = netfox;
+			sourceTree = "<group>";
+		};
+		D1EF1FE66F970F6646CD8A90863E43F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				85D15F39CB0A4DF019C5BA8DC540B809 /* Credential.swift */,
+				0402D40D1A6676147E6BD3234F183A5B /* HostUrl.swift */,
+			);
+			name = Models;
+			path = DebugMenu/Classes/Models;
+			sourceTree = "<group>";
+		};
+		DCD91E767006F35D2365A6FADC66E1DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4C6824EA89A4E45F450C4B404200689 /* DebugMenu.framework */,
+				D3EE9259B971D02BCAAA6779334066BA /* DebugMenuBundle.bundle */,
+				BC043DA76915F0E3B7CFA8AE6D7E0B7B /* Fingertips.framework */,
+				BF1952EA0085A4CE36B4AE041BE60B82 /* netfox.framework */,
+				B0AFA4196FCC3BC78710594F882228D3 /* Pods_DebugMenu_Tests.framework */,
+				3657B1211B637229AC91E197ADAD977D /* Pods_DebugMenuExampleApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7737AD749B9C07B7F015867917F8EDC /* Pods-DebugMenu_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				913D6A3BA4BF4BD1F1A2C26BB22850D3 /* Pods-DebugMenu_Tests.modulemap */,
+				9A89D9DFB0624312997BD3E8698F864D /* Pods-DebugMenu_Tests-acknowledgements.markdown */,
+				A86B3D5A40564630F178F408E0F07362 /* Pods-DebugMenu_Tests-acknowledgements.plist */,
+				E56B7F2C0C35D5C0C18C92CA8755B8EA /* Pods-DebugMenu_Tests-dummy.m */,
+				77F7D34ABC3687ABCE8759E6BF078273 /* Pods-DebugMenu_Tests-frameworks.sh */,
+				58DF6BEE1C8215B1FAF142D08B918FA1 /* Pods-DebugMenu_Tests-Info.plist */,
+				1F1B0763334465F816C03E4CBCE86DD9 /* Pods-DebugMenu_Tests-umbrella.h */,
+				F9D9DD71F8B693DD9545BB89CBFB6A74 /* Pods-DebugMenu_Tests.debug.xcconfig */,
+				7742AAD8377967ABC149C295834EB7D6 /* Pods-DebugMenu_Tests.release.xcconfig */,
+			);
+			name = "Pods-DebugMenu_Tests";
+			path = "Target Support Files/Pods-DebugMenu_Tests";
+			sourceTree = "<group>";
+		};
+		E9F2B52631790F1BDEF56FFC6114540D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				60F3CDA8093258849A7E7518D80473BC /* Foundation.framework */,
+				C3B07E60CD104CA24883D26E3C550F01 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F7EEC0F93948D5C92212D5440FE9979A /* CustomController */ = {
+			isa = PBXGroup;
+			children = (
+				A9926A0FDFB651CC2F297A4529A57872 /* CustomizeController.swift */,
+			);
+			name = CustomController;
+			path = CustomController;
+			sourceTree = "<group>";
+		};
+		FB7878271901EA49284ABF94F3A19EDE /* Fingertips */ = {
+			isa = PBXGroup;
+			children = (
+				D073F4341B57F7F97393D319E4DB993A /* Fingertips.h */,
+				547320CA7E6340F2D16748774F90A5D8 /* MBFingerTipWindow.h */,
+				2447D11029A9C91EE99033C7CAEDA3ED /* MBFingerTipWindow.m */,
+				AF7B891FAC11BA56F1F4A84794C9027E /* Support Files */,
+			);
+			name = Fingertips;
+			path = Fingertips;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4C669F5CA9E217DC2D190E43E2C1198A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F5997936DE428F420D103A4D68E5499 /* Fingertips-umbrella.h in Headers */,
+				79C91E2ACE87E43EAA82DB81FAC3F707 /* Fingertips.h in Headers */,
+				A539F76919E75E3D588BD5279F88B41B /* MBFingerTipWindow.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921E438A43E33CCD398F85DF411E2669 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFB8CA261570DA0FEFDF511AF411C7C /* Pods-DebugMenu_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71511E7833A126C546F465CFF361142 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88C1254A2722AE8B08E9D2BD9EC29FF /* Pods-DebugMenuExampleApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24B67313C00F55132BD98559F7D7D5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2445A07A8EC394F3DD10DB11D88106D /* netfox-umbrella.h in Headers */,
+				4044BE9CB23168BEA3EDAFE36B73F1FE /* NFXLoader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF07E10AE9A6AF94D64A4C9CC96AA21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2964D5147B3E1AD7C6C24FEB37EC26AB /* DebugMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1610B0D13741B14EABEFC3FD22EB03BC /* DebugMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81502C917D8BDED8599C69438219F368 /* Build configuration list for PBXNativeTarget "DebugMenu" */;
+			buildPhases = (
+				BEF07E10AE9A6AF94D64A4C9CC96AA21 /* Headers */,
+				C12892156A0893B09C10FEAD82C57FD2 /* Sources */,
+				45F555BFFBF92309B49275A70D8588C3 /* Frameworks */,
+				D6AF6B8024BB72E9A4BBFA19F1D5EC27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6F3E7305857B0E1A17AA9EF9142B06A /* PBXTargetDependency */,
+				2F9195D5A5305811E2B9F55E9E60F6AC /* PBXTargetDependency */,
+				5B4C7E05F979D3C8C61DF602C3296BB5 /* PBXTargetDependency */,
+			);
+			name = DebugMenu;
+			productName = DebugMenu;
+			productReference = E4C6824EA89A4E45F450C4B404200689 /* DebugMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1A1B8DEB393034E4084CDA7A0713DAB7 /* Pods-DebugMenu_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBFEE84DFC0EBD2AF60F1744205A293 /* Build configuration list for PBXNativeTarget "Pods-DebugMenu_Tests" */;
+			buildPhases = (
+				921E438A43E33CCD398F85DF411E2669 /* Headers */,
+				5EA1BB8FB03DE6EA05511F13130CAC61 /* Sources */,
+				DF5366A7B57A18E6417D8DBF8BE3F362 /* Frameworks */,
+				EB2FB1CC2B5521BB07DA039A0DD31A1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6E73360CD880CAB3B3CB3DB0CEC5476 /* PBXTargetDependency */,
+				A73DC8CDA96E758A6E072106D56C8FC9 /* PBXTargetDependency */,
+				AFB3FFB23267BA5F3C26380E8D638BB1 /* PBXTargetDependency */,
+			);
+			name = "Pods-DebugMenu_Tests";
+			productName = "Pods-DebugMenu_Tests";
+			productReference = B0AFA4196FCC3BC78710594F882228D3 /* Pods_DebugMenu_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		325C9290759498F6959A926FC3E82838 /* Fingertips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A6425B2E7088EFCD9649B36782E395E /* Build configuration list for PBXNativeTarget "Fingertips" */;
+			buildPhases = (
+				4C669F5CA9E217DC2D190E43E2C1198A /* Headers */,
+				4435960BFC836474AF5FA12A7E898362 /* Sources */,
+				7DB06D494E7380861CE0AF518D2A6326 /* Frameworks */,
+				1A1D77F4FC2CC3AFA696E4167DB66F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fingertips;
+			productName = Fingertips;
+			productReference = BC043DA76915F0E3B7CFA8AE6D7E0B7B /* Fingertips.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		33426EFE1931E100B59ABF41FD14377D /* netfox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA72601C9276849B2A40298B96D69E0D /* Build configuration list for PBXNativeTarget "netfox" */;
+			buildPhases = (
+				B24B67313C00F55132BD98559F7D7D5A /* Headers */,
+				B48826B3906F8922EC7E638130026FCF /* Sources */,
+				0BD71383D304B26222C8F73BD16EEDCC /* Frameworks */,
+				4AD294D313537E7BA19A35DD34EB60A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = netfox;
+			productName = netfox;
+			productReference = BF1952EA0085A4CE36B4AE041BE60B82 /* netfox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AAC6EC2071CCB84549DB35A9FB3DB9E7 /* Pods-DebugMenuExampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD08693844EBB99C1D49B50B31554D73 /* Build configuration list for PBXNativeTarget "Pods-DebugMenuExampleApp" */;
+			buildPhases = (
+				A71511E7833A126C546F465CFF361142 /* Headers */,
+				AE023FD04E409CBE70D5411C4D95940F /* Sources */,
+				4A1FD62E0E0DD7FC84020A2758484061 /* Frameworks */,
+				7CB62319DBACFA7B3F7B3E4B2D735543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E439EDB8BAC641FADDF61BA63D6CEF4F /* PBXTargetDependency */,
+				9BDE5479C6EC9C78C298C334D107B110 /* PBXTargetDependency */,
+				F2097113DE74419E94ACB495696BEA5D /* PBXTargetDependency */,
+			);
+			name = "Pods-DebugMenuExampleApp";
+			productName = "Pods-DebugMenuExampleApp";
+			productReference = 3657B1211B637229AC91E197ADAD977D /* Pods_DebugMenuExampleApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9D3192D9FD13B1FB1D55007DF0467C9 /* DebugMenu-DebugMenuBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF0392E922AD261ACD694BCE261CF914 /* Build configuration list for PBXNativeTarget "DebugMenu-DebugMenuBundle" */;
+			buildPhases = (
+				804B89D57C1132B105D83F01CE09F392 /* Sources */,
+				1DC0FE6FCAB8F1C58BA31A77B621FE6C /* Frameworks */,
+				931168250589044D51008A69564D68E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DebugMenu-DebugMenuBundle";
+			productName = "DebugMenu-DebugMenuBundle";
+			productReference = D3EE9259B971D02BCAAA6779334066BA /* DebugMenuBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DCD91E767006F35D2365A6FADC66E1DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1610B0D13741B14EABEFC3FD22EB03BC /* DebugMenu */,
+				C9D3192D9FD13B1FB1D55007DF0467C9 /* DebugMenu-DebugMenuBundle */,
+				325C9290759498F6959A926FC3E82838 /* Fingertips */,
+				33426EFE1931E100B59ABF41FD14377D /* netfox */,
+				1A1B8DEB393034E4084CDA7A0713DAB7 /* Pods-DebugMenu_Tests */,
+				AAC6EC2071CCB84549DB35A9FB3DB9E7 /* Pods-DebugMenuExampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A1D77F4FC2CC3AFA696E4167DB66F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD294D313537E7BA19A35DD34EB60A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB62319DBACFA7B3F7B3E4B2D735543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931168250589044D51008A69564D68E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7101EC195727954828A26354B2566B94 /* CustomizeController.xib in Resources */,
+				CF7B31C35ED58609F3763BC1034D6FEA /* FakeLocationController.xib in Resources */,
+				128743FEA6A7F996C56840FC32DE4973 /* MainDebugController.xib in Resources */,
+				3F6DB588AA2B144D63AAD8CA5D11A7A9 /* ServersController.xib in Resources */,
+				CDB46879B0BAC3644CDB99EDE6CE9ABD /* TemplatesController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AF6B8024BB72E9A4BBFA19F1D5EC27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C347341327145A00EC6128758E43EAF /* CustomizeController.xib in Resources */,
+				48D79B7920824EE904F0A54ADA0EB85F /* DebugMenuBundle.bundle in Resources */,
+				848A1D01815D85C389920B07CE6BDC60 /* FakeLocationController.xib in Resources */,
+				F34D8B65E0DCDE6060C231E5060BB603 /* MainDebugController.xib in Resources */,
+				7C7B7FBCA7CA41A3DFB445258B9A0584 /* ServersController.xib in Resources */,
+				D64C9F13D9AF52529DC253C87E5FCF24 /* TemplatesController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2FB1CC2B5521BB07DA039A0DD31A1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4435960BFC836474AF5FA12A7E898362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1164A13B7E3C8214C2FFE8422F51F45C /* Fingertips-dummy.m in Sources */,
+				6A40E418752F2C672EFDB1ECCA07E9D8 /* MBFingerTipWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA1BB8FB03DE6EA05511F13130CAC61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C266AFE78728198A31B3CD369F7CDA5 /* Pods-DebugMenu_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804B89D57C1132B105D83F01CE09F392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE023FD04E409CBE70D5411C4D95940F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D64FBAC42C85E367300102AD56DC2E0 /* Pods-DebugMenuExampleApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48826B3906F8922EC7E638130026FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				814A6155AD85BB2C960473386FB273AC /* netfox-dummy.m in Sources */,
+				73066E91A0EE99B9FADFBC954534A970 /* NFX.swift in Sources */,
+				0DD819729BCDC980D093AC913C81690A /* NFXAssets.swift in Sources */,
+				89A93FBF081D02B3AF44448C5D464C19 /* NFXAuthenticationChallengeSender.swift in Sources */,
+				4900DE3B6329D64E3BA24C5495806EC1 /* NFXConstants.swift in Sources */,
+				F9E15738B18BF78C305366C8ED27CE86 /* NFXDetailsController.swift in Sources */,
+				3E3F1D7C263E5289DBE669488B613D43 /* NFXDetailsController_iOS.swift in Sources */,
+				C4C8C2DF48A1FF1D644DB70E9D58A034 /* NFXGenericBodyDetailsController.swift in Sources */,
+				E8F0214C1945103B0E908BE92658134D /* NFXGenericController.swift in Sources */,
+				0FCE3C0681D819E0265703F60330EE92 /* NFXHelper.swift in Sources */,
+				9A6ADBF93C8FC03ED27665048FB75F2D /* NFXHelper_iOS.swift in Sources */,
+				BBFF77DC457A543D83CD7C8D29DB95A0 /* NFXHTTPModel.swift in Sources */,
+				68BAD933D1B565E2852ECED1E57C06FA /* NFXHTTPModelManager.swift in Sources */,
+				84F77B6719946CFC3496869C5DEB5951 /* NFXImageBodyDetailsController.swift in Sources */,
+				D953A4F205B6E1CFAFCF0F9931F27719 /* NFXInfoController.swift in Sources */,
+				DF5CAE73D271572C9E6AB3EFB571EE55 /* NFXInfoController_iOS.swift in Sources */,
+				E36D70CEB5E7A6C4B82FDEC7F3096578 /* NFXListCell_iOS.swift in Sources */,
+				4F7E412F3FFB0A87B72617A23C033B51 /* NFXListController.swift in Sources */,
+				CECA233B7956AF3910A31626ED4D7E3C /* NFXListController_iOS.swift in Sources */,
+				CCFF99AE0BE0C4AF01942B2B50CF16D1 /* NFXLoader.m in Sources */,
+				21814D7EE82F8BB989437E5100CB07AE /* NFXProtocol.swift in Sources */,
+				CAF278F589FC8750708ADC6B4B341F22 /* NFXRawBodyDetailsController.swift in Sources */,
+				857074CBA772FF76D6BA708F43C38A82 /* NFXSettingsController.swift in Sources */,
+				10BE7818E593D0A3C6974743D494899D /* NFXSettingsController_iOS.swift in Sources */,
+				5ECEFCC2D08F8D2CE0E82A6EA44F73D7 /* NFXStatisticsController.swift in Sources */,
+				C52241A3D698575E2A0B81C84EF645EA /* NFXStatisticsController_iOS.swift in Sources */,
+				62923E6B71078CA5469A95C52CA7EE9C /* NFXURLDetailsControllerViewController.swift in Sources */,
+				E3D93EA2FDDF6362E469AD5625A86AB2 /* NFXWindowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12892156A0893B09C10FEAD82C57FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889667B66F38462AC409AECD1896F95D /* Array+Utils.swift in Sources */,
+				3CF5E488FF5419AC95069DBA7EBF2285 /* Closable.swift in Sources */,
+				158E33090BE61388F765176B47AC5647 /* Credential.swift in Sources */,
+				1BD04A70EF76BD6EF9276FC62D949DBA /* CustomizeController.swift in Sources */,
+				88DAB14B20B3348972229A7AACC5F848 /* DebugGestureRecognizer.swift in Sources */,
+				6AF209FAEA844AE6EC71B2BD0D60DA84 /* DebugMenu-dummy.m in Sources */,
+				2B337E6FF6E98CC10BAB27278CD76D64 /* DebugMenuManager.swift in Sources */,
+				76561B2DB31C0B914AADD4C4B9354398 /* DebugUtils.swift in Sources */,
+				2D707D16E2BBE97968CC6202D712C946 /* DebugViewController.swift in Sources */,
+				DA06AA1A6CC2B9D8F7EC41AC663BE8EC /* FakeLocationController.swift in Sources */,
+				4A0629970051A2317A448FC96D9FF5B0 /* HostUrl.swift in Sources */,
+				6719C42B3B1C93685EE65EBAE36C9097 /* KeyChainUtils.swift in Sources */,
+				EC8EC32453A70E08B79C7488D06872E1 /* MainDebugController.swift in Sources */,
+				B479B2090FC9AFEBE19883BBD75D4E9F /* ServersController.swift in Sources */,
+				D8A7CCCC81072C58C9A7E55404F64EB5 /* String+Utils.swift in Sources */,
+				27FCC0673DFC26891C637B89CE20E59F /* TemplatesController.swift in Sources */,
+				1766DB8ECBD23A7B68C2B0DC6D5136D9 /* UIView+Utils.swift in Sources */,
+				58FA688024C66922AD30595BE5C060E4 /* UIViewController+Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F9195D5A5305811E2B9F55E9E60F6AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Fingertips;
+			target = 325C9290759498F6959A926FC3E82838 /* Fingertips */;
+			targetProxy = 1176F8A597F044096E81A35B836ED700 /* PBXContainerItemProxy */;
+		};
+		5B4C7E05F979D3C8C61DF602C3296BB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = netfox;
+			target = 33426EFE1931E100B59ABF41FD14377D /* netfox */;
+			targetProxy = 3C6AA3E2B0282D88080E1306A76ED44D /* PBXContainerItemProxy */;
+		};
+		9BDE5479C6EC9C78C298C334D107B110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Fingertips;
+			target = 325C9290759498F6959A926FC3E82838 /* Fingertips */;
+			targetProxy = C59A9EBC5B8CFC8D787B58622B63D6C8 /* PBXContainerItemProxy */;
+		};
+		A6E73360CD880CAB3B3CB3DB0CEC5476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DebugMenu;
+			target = 1610B0D13741B14EABEFC3FD22EB03BC /* DebugMenu */;
+			targetProxy = 2CEDEDF1C7B54CFA020E91C07D23C382 /* PBXContainerItemProxy */;
+		};
+		A73DC8CDA96E758A6E072106D56C8FC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Fingertips;
+			target = 325C9290759498F6959A926FC3E82838 /* Fingertips */;
+			targetProxy = 3D2EF90A7FADC4D41AB26B43FE0182F9 /* PBXContainerItemProxy */;
+		};
+		AFB3FFB23267BA5F3C26380E8D638BB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = netfox;
+			target = 33426EFE1931E100B59ABF41FD14377D /* netfox */;
+			targetProxy = 8155A7CB6B812DB4993FB1FA260989F5 /* PBXContainerItemProxy */;
+		};
+		B6F3E7305857B0E1A17AA9EF9142B06A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DebugMenu-DebugMenuBundle";
+			target = C9D3192D9FD13B1FB1D55007DF0467C9 /* DebugMenu-DebugMenuBundle */;
+			targetProxy = 1EBEA04D7A5EF592D883C1161110A2BE /* PBXContainerItemProxy */;
+		};
+		E439EDB8BAC641FADDF61BA63D6CEF4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DebugMenu;
+			target = 1610B0D13741B14EABEFC3FD22EB03BC /* DebugMenu */;
+			targetProxy = E30F682510C0E3DB31F558AA38E0AE60 /* PBXContainerItemProxy */;
+		};
+		F2097113DE74419E94ACB495696BEA5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = netfox;
+			target = 33426EFE1931E100B59ABF41FD14377D /* netfox */;
+			targetProxy = 8DFBD14F1D95A7F17D82A3A9ED031770 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A6F3171CE268EFDC8B6D30CBFBB6109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC938C3370E07336FBB01C2C4BE3971A /* netfox.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/netfox/netfox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/netfox/netfox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/netfox/netfox.modulemap";
+				PRODUCT_MODULE_NAME = netfox;
+				PRODUCT_NAME = netfox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		12C2FC50563DFDF57E1D45A895D40554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D9DD71F8B693DD9545BB89CBFB6A74 /* Pods-DebugMenu_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DebugMenu_Tests/Pods-DebugMenu_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DebugMenu_Tests/Pods-DebugMenu_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		181B2DD635894CB73E94F2E9B749FD0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE10A9DE9E0CFE0F5223995EE2CC9335 /* DebugMenu.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DebugMenu/DebugMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DebugMenu/DebugMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DebugMenu/DebugMenu.modulemap";
+				PRODUCT_MODULE_NAME = DebugMenu;
+				PRODUCT_NAME = DebugMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2FFB3B07C2E3DA323186CB4268D0C320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B73A50B0DF64D2E4F40BA7C2105E5B8 /* DebugMenu.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DebugMenu/DebugMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DebugMenu/DebugMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DebugMenu/DebugMenu.modulemap";
+				PRODUCT_MODULE_NAME = DebugMenu;
+				PRODUCT_NAME = DebugMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		562DC547979749E0FCF350C915A0D296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B0462617C7CAA1530F341691F961290 /* Fingertips.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Fingertips/Fingertips-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fingertips/Fingertips-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Fingertips/Fingertips.modulemap";
+				PRODUCT_MODULE_NAME = Fingertips;
+				PRODUCT_NAME = Fingertips;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6AF9A70A41263C761EB4E6750E24ED46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B6A8987D4C326FE19E67E33C8BA0EDC /* netfox.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/netfox/netfox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/netfox/netfox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/netfox/netfox.modulemap";
+				PRODUCT_MODULE_NAME = netfox;
+				PRODUCT_NAME = netfox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79EEF3A54AA8208D60378625122B9DE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25F8C13D11A8C1F45E708C5FEB21AEE4 /* Fingertips.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Fingertips/Fingertips-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fingertips/Fingertips-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Fingertips/Fingertips.modulemap";
+				PRODUCT_MODULE_NAME = Fingertips;
+				PRODUCT_NAME = Fingertips;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7DA86DD59C8DF5286218BEB809C4DF7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7742AAD8377967ABC149C295834EB7D6 /* Pods-DebugMenu_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DebugMenu_Tests/Pods-DebugMenu_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DebugMenu_Tests/Pods-DebugMenu_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80005D8D4526458F2BC37AC83E5D9EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80783D182F64573BAF8DFB4BBC402E39 /* Pods-DebugMenuExampleApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DebugMenuExampleApp/Pods-DebugMenuExampleApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DebugMenuExampleApp/Pods-DebugMenuExampleApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A2EEC0DB74837053DEFE80CB58AE4703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71CDAA03EDBE948954BA0BD4C9ADCD0A /* Pods-DebugMenuExampleApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DebugMenuExampleApp/Pods-DebugMenuExampleApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DebugMenuExampleApp/Pods-DebugMenuExampleApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C3B30BBBCD84D0A43E5D3477312275E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE10A9DE9E0CFE0F5223995EE2CC9335 /* DebugMenu.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DebugMenu";
+				IBSC_MODULE = DebugMenu;
+				INFOPLIST_FILE = "Target Support Files/DebugMenu/ResourceBundle-DebugMenuBundle-DebugMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = DebugMenuBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F935FE7FD236C71986BF491FFA912193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B73A50B0DF64D2E4F40BA7C2105E5B8 /* DebugMenu.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DebugMenu";
+				IBSC_MODULE = DebugMenu;
+				INFOPLIST_FILE = "Target Support Files/DebugMenu/ResourceBundle-DebugMenuBundle-DebugMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = DebugMenuBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A6425B2E7088EFCD9649B36782E395E /* Build configuration list for PBXNativeTarget "Fingertips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79EEF3A54AA8208D60378625122B9DE3 /* Debug */,
+				562DC547979749E0FCF350C915A0D296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81502C917D8BDED8599C69438219F368 /* Build configuration list for PBXNativeTarget "DebugMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FFB3B07C2E3DA323186CB4268D0C320 /* Debug */,
+				181B2DD635894CB73E94F2E9B749FD0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF0392E922AD261ACD694BCE261CF914 /* Build configuration list for PBXNativeTarget "DebugMenu-DebugMenuBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F935FE7FD236C71986BF491FFA912193 /* Debug */,
+				C3B30BBBCD84D0A43E5D3477312275E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD08693844EBB99C1D49B50B31554D73 /* Build configuration list for PBXNativeTarget "Pods-DebugMenuExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80005D8D4526458F2BC37AC83E5D9EF2 /* Debug */,
+				A2EEC0DB74837053DEFE80CB58AE4703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA72601C9276849B2A40298B96D69E0D /* Build configuration list for PBXNativeTarget "netfox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AF9A70A41263C761EB4E6750E24ED46 /* Debug */,
+				0A6F3171CE268EFDC8B6D30CBFBB6109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBFEE84DFC0EBD2AF60F1744205A293 /* Build configuration list for PBXNativeTarget "Pods-DebugMenu_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C2FC50563DFDF57E1D45A895D40554 /* Debug */,
+				7DA86DD59C8DF5286218BEB809C4DF7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

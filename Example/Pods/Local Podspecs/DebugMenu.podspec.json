@@ -1,0 +1,40 @@
+{
+  "name": "DebugMenu",
+  "version": "1.0.15",
+  "summary": "DebugMenu helps you in testing app",
+  "description": "This is debug menu for test builds",
+  "homepage": "https://github.com/magenta-technology/DebugMenu",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Pavel Volkhin": "pavel.volhin@magenta-technology.com"
+  },
+  "source": {
+    "git": "https://github.com/magenta-technology/DebugMenu.git",
+    "tag": "1.0.15"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "DebugMenu/Classes/**/*.{swift}",
+  "resources": "DebugMenu/Classes/**/*.{xib}",
+  "resource_bundles": {
+    "DebugMenuBundle": [
+      "DebugMenu/Classes/**/*.{xib}"
+    ]
+  },
+  "dependencies": {
+    "Fingertips": [
+      "~> 0.5.0"
+    ],
+    "netfox": [
+      "~> 1.17.0"
+    ]
+  },
+  "swift_versions": [
+    "4.2"
+  ],
+  "swift_version": "4.2"
+}

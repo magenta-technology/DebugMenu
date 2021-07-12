@@ -1,0 +1,27 @@
+PODS:
+  - DebugMenu (1.0.15):
+    - Fingertips (~> 0.5.0)
+    - netfox (~> 1.17.0)
+  - Fingertips (0.5.0)
+  - netfox (1.17.0)
+
+DEPENDENCIES:
+  - DebugMenu (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Fingertips
+    - netfox
+
+EXTERNAL SOURCES:
+  DebugMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DebugMenu: 9866f13cf3edc39332a6ad225dd47c6a069a92fb
+  Fingertips: 8e557eed25253fcb4bfa25ac4418f8e8add1ad9a
+  netfox: aae5897aebff6a1f89efe449dcd14e217d249c10
+
+PODFILE CHECKSUM: 05361b81fb900312e54120d93221cad825409b91
+
+COCOAPODS: 1.10.1

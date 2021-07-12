@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainDebugController" customModule="DebugMenu">
+            <connections>
+                <outlet property="containerView" destination="b2c-dh-brW" id="TDv-RD-zfY"/>
+                <outlet property="navItem" destination="kVW-UQ-Rxy" id="4Vs-hn-Ewd"/>
+                <outlet property="scrollView" destination="9Q6-nn-jrs" id="wfL-Mb-7Mw"/>
+                <outlet property="stackView" destination="jJL-J7-Sar" id="R8a-NK-AH6"/>
+                <outlet property="view" destination="iN0-l3-epB" id="N46-y1-D93"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nVM-SU-9XG">
+                    <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <items>
+                        <navigationItem id="kVW-UQ-Rxy"/>
+                    </items>
+                </navigationBar>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b2c-dh-brW">
+                    <rect key="frame" x="0.0" y="128" width="414" height="734"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Q6-nn-jrs">
+                    <rect key="frame" x="0.0" y="88" width="414" height="40"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="jJL-J7-Sar">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="jJL-J7-Sar" secondAttribute="bottom" id="AfJ-LC-8HE"/>
+                        <constraint firstItem="jJL-J7-Sar" firstAttribute="top" secondItem="9Q6-nn-jrs" secondAttribute="top" id="Tp5-KJ-xC5"/>
+                        <constraint firstItem="jJL-J7-Sar" firstAttribute="height" secondItem="9Q6-nn-jrs" secondAttribute="height" id="Vb4-IL-l71"/>
+                        <constraint firstItem="jJL-J7-Sar" firstAttribute="leading" secondItem="9Q6-nn-jrs" secondAttribute="leading" id="ib3-Gd-Fnv"/>
+                        <constraint firstAttribute="trailing" secondItem="jJL-J7-Sar" secondAttribute="trailing" id="yio-lf-hMI"/>
+                        <constraint firstAttribute="height" constant="40" id="ymg-mv-oYp"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="gw2-IU-Ify"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="uTh-PF-cMN"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="9Q6-nn-jrs" firstAttribute="top" secondItem="nVM-SU-9XG" secondAttribute="bottom" id="8eJ-Ya-0wA"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="nVM-SU-9XG" secondAttribute="trailing" id="8fp-GD-Om0"/>
+                <constraint firstItem="nVM-SU-9XG" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="9xR-cD-Ntc"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="9Q6-nn-jrs" secondAttribute="trailing" id="A5P-5f-VJH"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="b2c-dh-brW" secondAttribute="trailing" id="AT9-3a-hDp"/>
+                <constraint firstItem="nVM-SU-9XG" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="DSX-EP-JH4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="b2c-dh-brW" secondAttribute="bottom" id="Uid-tX-2XQ"/>
+                <constraint firstItem="9Q6-nn-jrs" firstAttribute="bottom" secondItem="b2c-dh-brW" secondAttribute="top" id="eQM-1Y-6cA"/>
+                <constraint firstItem="b2c-dh-brW" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="fYf-fc-kVl"/>
+                <constraint firstItem="9Q6-nn-jrs" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="oJL-rg-Jfc"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="153.34821428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
