@@ -8,19 +8,19 @@ DebugMenu is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-source 'http://lab/mobile-development/internal-pods.git'
+source 'https://github.com/magenta-technology/CocoaPod-Specs.git'
 pod 'DebugMenu'
 ```
 
 or 
 
 ```ruby
-pod 'DebugMenu', :git => 'http://lab/mobile-development/debugmenu.git'
+pod 'DebugMenu', :git => 'https://github.com/magenta-technology/debugmenu.git'
 ```
 
 ## Author
 
-Pavel Volhin, pavel.volhin@magenta-technology.com
+Pavel Volkhin, pavel.volhin@magenta-technology.com
 
 ## License
 
